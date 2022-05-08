@@ -9,8 +9,8 @@ let town="ikeja";
 
 
 let sentence = "My name is " + name +",I am a " +occupation + " and I live in "+ town;
-console.log(sentence);
 document.write(sentence);
+console.log(sentence);
 
 
 const exam = [
