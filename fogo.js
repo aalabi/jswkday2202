@@ -21,26 +21,20 @@ const exam = [
     ["Who is the President of UK", "Theresa", "Johnson", "Cyril", "Johnson"],
 ];
 
-const question=`<br><br>
+const question=`<br>
     1. ${exam[0][0]} <br>
     (a). ${exam[0][1]}  (b). ${exam[0][2]} (c).${exam[0][3]}
-    <br><br>
-
-    2. ${exam[1][0]} <br>
+    <br>
+    2. ${exam[1][0]} 
     (a). ${exam[1][1]}  (b). ${exam[1][2]} (c).${exam[1][3]}
-    <br><br>
-
+    <br>
     3. ${exam[2][0]} <br>
     (a). ${exam[2][1]}  (b). ${exam[2][2]} (c).${exam[2][3]}
-    <br><br>
-
+    <br>
     4. ${exam[2][0]} <br>
     (a). ${exam[2][1]}  (b). ${exam[2][2]} (c).${exam[2][3]}
-    <br><br>
-
+    <br>
     5. ${exam[3][0]} <br>
     (a). ${exam[3][1]}  (b). ${exam[3][2]} (c).${exam[3][3]}
-    
-
 `;
 document.write(question)
