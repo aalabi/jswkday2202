@@ -13,8 +13,8 @@ while (count < noOfQuestion){
 let increment = count + 1;
 
 question += `
-    1). ${exam[0][0]} <br/>
-    (a) ${exam[0][1]}  (b) ${exam[0][2]} (c) ${exam[0][3]}
+    ${increment}). ${exam[count][0]} <br/>
+    (a) ${exam[count][1]}  (b) ${exam[count][2]} (c) ${exam[count][3]}
     <br/><br/>
 `;
 ++count;
@@ -22,6 +22,4 @@ question += `
 
 
 
-
-document.write(noOfQuestion);
 document.write(question);
