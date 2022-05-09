@@ -7,3 +7,11 @@ const exam = [
 ];
 
 
+question = `
+    1). ${exam[0][0]} <br/>
+    (a) ${exam[0][1]}  (b) ${exam[0][2]} (c) ${exam[0][3]}
+    <br/><br/>
+`
+
+
+document.write(question);
