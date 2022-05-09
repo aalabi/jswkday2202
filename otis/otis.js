@@ -47,8 +47,9 @@ const examAnswer= `
 
    </tr>
    
-   <td>${5.}</td> <td colspan=2 >${ exam[4][0]}</td> <td>${"a."} ${exam[4][1]} </td> <td>${"b."}${exam[4][2]} </td> <td>${"c."} ${exam[4][3]} </td>
+   <td>${5.}</td> <td  colspan=2 >${ exam[4][0]}</td> <td>${"a."} ${exam[4][1]} </td> <td>${"b."}${exam[4][2]} </td> <td>${"c."} ${exam[4][3]} </td>
    </table>
 `;
 
 document.write(examAnswer);
+
