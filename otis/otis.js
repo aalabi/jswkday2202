@@ -53,3 +53,13 @@ const examAnswer= `
 
 document.write(examAnswer);
 
+//calculation for multiplaication table 
+
+for( i=0; i<12; i++){
+
+ document.write(` The answer is:${i} * 2 =  ${i*2} <br>` )
+}
+
+// for( let i=0; i<12; i++){
+//     console.log( i + " x 2" + i*2)
+// }
