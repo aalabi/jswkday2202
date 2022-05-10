@@ -63,3 +63,11 @@ for( i=1; i<12; i++){
 // for( let i=0; i<12; i++){
 //     console.log( i + " x 2" + i*2)
 // }
+
+// this is the second assignment 
+
+
+let examsQuestions = exam.filter(exams =>{
+return exam[0]*2
+})
+console.log(examsQuestions);
