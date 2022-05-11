@@ -71,3 +71,38 @@ let examsQuestions = exam.filter(exams =>{
 return exam[0]*2
 })
 console.log(examsQuestions);
+
+
+const exam = [
+    ["Who is the president of Nigeria?", " Muhammadu Buhari", "James Cameron" , "Kelvin James", "Muhammadu Buhari"],
+    ["Who is the president of Liberia?", "Helen Justin Sirleaf", "Philemon Joshua", "Pinto Nutjis" , "Helen Justin Sirleaf"],
+    ["Who is the president of Congo?", "Newman Jake", "fred Likto", "Kelvin Bingo" , "Newman Jake"],
+    ["Who is the president of South Afirca?", "kelvin tayong", "Odin thor", "Striden Joshua" , "kelvin tayong"],
+    ["Who is the president of Zambia?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of United States of America?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of  Kenya?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Ireland?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Finland?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Dubai?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Ghana?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Mozambique?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of turkey?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Ukraine?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Russia?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"],
+    ["Who is the president of Egypt?", "Uhuru David", "Stephen Olidin", "Fredrick Freepong" , "Botin Jimmy"]
+];
+
+
+
+//This is for the odd questions
+for(let i =0; i <= exam.length; i+=2){
+    console.log(exam[i])
+}
+
+
+
+//this is for the odd numbers 
+for(let index =1; index <= exam.length; index+=2){
+    console.log(exam[index])
+}
+
