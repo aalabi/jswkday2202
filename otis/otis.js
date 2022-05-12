@@ -101,7 +101,7 @@ for(let i =0; i <= exam.length; i+=2){
 
 
 
-//this is for the odd numbers 
+//this is for the even numbers 
 for(let index =1; index <= exam.length; index+=2){
     console.log(exam[index])
 }
