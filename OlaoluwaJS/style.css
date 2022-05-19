@@ -29,8 +29,44 @@
     font-weight: 500;
 
 }
+/* Assg JS 13/05/22 */
+.h1{
+    text-align: center;
+}
 
 .hr{
     margin-top: 25px;
 }
+
+.display{
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.L1{
+    margin-left: 10px;
+}
+
+
+.logo{
+    border: 1px;
+    border-style: dotted;
+    border-color: darkcyan;
+}
+
+.btn{
+    background-color: yellowgreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
 

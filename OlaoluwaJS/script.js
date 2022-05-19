@@ -1,4 +1,5 @@
-// Assignment 1
+// Assignment 1 writing a senntence by calling a variable name
+
 // let urName = "Samuel Olaoluwa Akinyemi";
 // let occupation = "Digital Creator";
 // let town = "No 16, kunleshow street,  Ayobo, Ipaja Lagos,";
@@ -16,8 +17,11 @@
 // console.log(sentence);
 // document.write(sentence);
 
+// End
 
+// Start
 // Assignment 2 (CBT question format)
+
 // const exam = [
 //     ["Who is the President of Nigeria?", "Olaoluwa", "Adebayo", "Kolade", "Alabi", "Olaoluwa"],
 //     ["Who is the President of USA", "Buhari", "Tunde", "Biden", "Alabi", "Biden"],
@@ -50,46 +54,24 @@
 
 //   `
 //   document.write(question);
+// End
 
 
-
-// Assignment 3
-
-// let kanter = 0;
-//  while (kanter < 12) {
-//      ++kanter;
-//      document.write(kanter + " X 2 = " + kanter * 2 + "<br/>");
-//  }
-
-//  do {
-//   ++kanter;
-//   document.write(kanter + " X 2 = " + kanter * 2 + "<br/>");
-// } while (kanter < 12);
-
-
-
-// for (let index = 2; index <= 12; index = index + 2) {
-//   document.write(index + " X 2 = " + index * 2 + "<br/>");
-// }
-
-// shows even
-// for (let index = 0; index <= 12; index = index + 1) {
-//   document.write(index + " X 2 = " + index * 2 + "<br/>");
-//   ++index;
-// }
+// Start
+// Assignment 3 Multiplication Table and Showing even and odd numbers
 
 // Multiplication Table
-for (let a = 1; a <= 12; a++) { 
-  document.write(` <div> 2 X ${a}  =  ${a*2} <br> </div>` )
-  }
+// for (let a = 1; a <= 12; a++) { 
+//   document.write(` <div> 2 X ${a}  =  ${a*2} <br> </div>` )
+//   }
 
-for (let a = 1; a <= 12; a++) { 
-  document.write(`<hr> <div> 3 X ${a}  =  ${a*3} <br> </div> <hr>` )
-    }
+// for (let a = 1; a <= 12; a++) { 
+//   document.write(`<hr> <div> 3 X ${a}  =  ${a*3} <br> </div> <hr>` )
+//     }
 
-for (let a = 1; a <= 12; a++) { 
-      document.write(` <div> 4 X ${a}  =  ${a*4} <br> </div>` )
-        }
+// for (let a = 1; a <= 12; a++) { 
+//       document.write(` <div> 4 X ${a}  =  ${a*4} <br> </div>` )
+//         }
 
 
 
@@ -137,6 +119,7 @@ for (let a = 1; a <= 12; a++) {
 //     document.write(index + " X 12 = " + index * 12 + "<br/>");
 //   }
 
+// Otis
 // for( i=1; i<12; i++){
 
 //    document.write(` The answer is:${i} * 2 =  ${i*2} <br>` )
@@ -147,29 +130,60 @@ for (let a = 1; a <= 12; a++) {
 // }
   
 
-const exam = [
-      ["Who is the President of Nigeria?", "Olaoluwa", "Adebayo", "Kolade", "Alabi", "Olaoluwa"],
-      ["Who is the President of USA", "Buhari", "Tunde", "Biden", "Alabi", "Biden"],
-      ["Who is the President of Ghana", "Kofo", "Guy", "Nana", "Alabi", "Nana"],
-      ["Who is the President of South Africa", "Kofo", "Buhari", "Olaoluwa", "Cyril", "Cyril"],
-      ["Who is the Prime Minister of UK", "Theresa", "Johnson", "Cyril", "Olaoluwa", "Johnson"],
-      ["Who is the President of Ghana", "Kofo", "Guy", "Nana", "Alabi", "Nana"],
-      ["Who is the President of South Africa", "Kofo", "Buhari", "Olaoluwa", "Cyril", "Cyril"],
-      ["Who is the President of Nigeria?", "Olaoluwa", "Adebayo", "Kolade", "Alabi", "Olaoluwa"],
-      ["Who is the President of USA", "Buhari", "Tunde", "Biden", "Alabi", "Biden"],
-    ];
+// const exam = [
+//       ["Who is the President of Nigeria?", "Olaoluwa", "Adebayo", "Kolade", "Alabi", "Olaoluwa"],
+//       ["Who is the President of USA", "Buhari", "Tunde", "Biden", "Alabi", "Biden"],
+//       ["Who is the President of Ghana", "Kofo", "Guy", "Nana", "Alabi", "Nana"],
+//       ["Who is the President of South Africa", "Kofo", "Buhari", "Olaoluwa", "Cyril", "Cyril"],
+//       ["Who is the Prime Minister of UK", "Theresa", "Johnson", "Cyril", "Olaoluwa", "Johnson"],
+//       ["Who is the President of Ghana", "Kofo", "Guy", "Nana", "Alabi", "Nana"],
+//       ["Who is the President of South Africa", "Kofo", "Buhari", "Olaoluwa", "Cyril", "Cyril"],
+//       ["Who is the President of Nigeria?", "Olaoluwa", "Adebayo", "Kolade", "Alabi", "Olaoluwa"],
+//       ["Who is the President of USA", "Buhari", "Tunde", "Biden", "Alabi", "Biden"],
+//     ];
 
 
 // This is showing odd numbers for the questions
-for(let E =0; E <= exam.length; E+=2){
-  console.log(exam[E])
-}
+// for(let E =0; E <= exam.length; E+=2){
+//   console.log(exam[E])
+// }
 
 // This is showing even numbers for the questions
-for(Ex=1;  Ex <= exam.length; Ex+=2 ){
-  console.log(exam[Ex])
-}
+// for(Ex=1;  Ex <= exam.length; Ex+=2 ){
+//   console.log(exam[Ex])
+// }
+// End
 
+// Start
+// class work(selecting class/Id and styling and hiding image )
 
- 
+// const welcome=document.getElementById("myHome")
+// welcome.style.backgroundColor = "red"
+// welcome.style.Color = "blue"
+// welcome.style.fontSize = "50px"
+// console.log(welcome);
+
+// const unorderedList=document.getElementById("link")
+// unorderedList.style.backgroundColor = "blue"
+// unorderedList.style.Color = "white"
+// unorderedList.style.fontSize = "50px"
+// unorderedList.style.fontFamily = "sans serif"
+// console.log(unorderedList);
+
+// hidden image method
+// const index=document.getElementById("rere")
+// if(index.style.display='none')
+// document.write("empty image shown")
+// End
+
+// Start
+// Assg 5 13/05/22 (hiding product images using array and removechild)
+
+ let main = document.getElementById('main');
+ let listImage = main.children;
+    main.removeChild(listImage[9]);
+    main.removeChild(listImage[2]);
+
+ console.log(listImage[2]);
+// End
 
